@@ -1,0 +1,612 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.21.1217.2252                               -->
+<workbook original-version='18.1' source-build='2021.4.2 (20214.21.1217.2252)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='V1_weightLogInfo_merged (V2_weightLogInfo_merged)' inline='true' name='federated.17m7nqt1je7ef61bl3i2t07h9919' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='V2_weightLogInfo_merged' name='excel-direct.0etygj40ssoxxk1fz4b9i1ihej37'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/kbito/Downloads/Case Study Bitos Data Analysis/Fitabase Data 4.12.16-5.12.16/Cleaned_Data/V2_weightLogInfo_merged.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0etygj40ssoxxk1fz4b9i1ihej37' name='V1_weightLogInfo_merged' table='[V1_weightLogInfo_merged$]' type='table'>
+          <columns gridOrigin='A1:K68:no:A1:K68:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Id' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='real' name='WeightKg' ordinal='2' />
+            <column datatype='real' name='WeightPounds' ordinal='3' />
+            <column datatype='integer' name='Fat' ordinal='4' />
+            <column datatype='real' name='BMI' ordinal='5' />
+            <column datatype='boolean' name='IsManualReport' ordinal='6' />
+            <column datatype='integer' name='LogId' ordinal='7' />
+            <column datatype='string' name='Unique_Id' ordinal='8' />
+            <column datatype='real' name='Average Kg' ordinal='9' />
+            <column datatype='real' name='Average BMI' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0etygj40ssoxxk1fz4b9i1ihej37' name='V1_weightLogInfo_merged' table='[V1_weightLogInfo_merged$]' type='table'>
+          <columns gridOrigin='A1:K68:no:A1:K68:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Id' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='real' name='WeightKg' ordinal='2' />
+            <column datatype='real' name='WeightPounds' ordinal='3' />
+            <column datatype='integer' name='Fat' ordinal='4' />
+            <column datatype='real' name='BMI' ordinal='5' />
+            <column datatype='boolean' name='IsManualReport' ordinal='6' />
+            <column datatype='integer' name='LogId' ordinal='7' />
+            <column datatype='string' name='Unique_Id' ordinal='8' />
+            <column datatype='real' name='Average Kg' ordinal='9' />
+            <column datatype='real' name='Average BMI' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K68:no:A1:K68:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WeightKg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WeightKg]</local-name>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias>WeightKg</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WeightPounds</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WeightPounds]</local-name>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias>WeightPounds</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fat</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fat]</local-name>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias>Fat</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BMI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BMI]</local-name>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias>BMI</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsManualReport</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[IsManualReport]</local-name>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias>IsManualReport</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LogId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LogId]</local-name>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias>LogId</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unique_Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Unique_Id]</local-name>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias>Unique_Id</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Kg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average Kg]</local-name>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias>Average Kg</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average BMI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average BMI]</local-name>
+            <parent-name>[V1_weightLogInfo_merged]</parent-name>
+            <remote-alias>Average BMI</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Id]' role='dimension' type='ordinal' />
+      <column caption='Is Manual Report' datatype='boolean' name='[IsManualReport]' role='dimension' type='nominal' />
+      <column caption='Log Id' datatype='integer' name='[LogId]' role='dimension' type='ordinal' />
+      <column caption='Unique Id' datatype='string' name='[Unique_Id]' role='dimension' type='nominal' />
+      <column caption='Weight Kg' datatype='real' name='[WeightKg]' role='measure' type='quantitative' />
+      <column caption='Weight Pounds' datatype='real' name='[WeightPounds]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='V1_weightLogInfo_merged' datatype='table' name='[__tableau_internal_object_id__].[V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4]' role='measure' type='quantitative' />
+      <column-instance column='[Unique_Id]' derivation='None' name='[none:Unique_Id:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Unique_Id:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;1503960366&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;4558609924&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;4319703577&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;6962181067&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;5577150313&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;1927972279&quot;</bucket>
+            </map>
+            <map to='#ff2032'>
+              <bucket>&quot;Avg&quot;</bucket>
+            </map>
+            <map to='#ff6265'>
+              <bucket>&quot;2873212765&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;8877689391&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='V1_weightLogInfo_merged' id='V1!weightLogInfo!merged_AE5A4F5920F841C09047594D655136E4'>
+            <properties context=''>
+              <relation connection='excel-direct.0etygj40ssoxxk1fz4b9i1ihej37' name='V1_weightLogInfo_merged' table='[V1_weightLogInfo_merged$]' type='table'>
+                <columns gridOrigin='A1:K68:no:A1:K68:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Id' ordinal='0' />
+                  <column datatype='string' name='Date' ordinal='1' />
+                  <column datatype='real' name='WeightKg' ordinal='2' />
+                  <column datatype='real' name='WeightPounds' ordinal='3' />
+                  <column datatype='integer' name='Fat' ordinal='4' />
+                  <column datatype='real' name='BMI' ordinal='5' />
+                  <column datatype='boolean' name='IsManualReport' ordinal='6' />
+                  <column datatype='integer' name='LogId' ordinal='7' />
+                  <column datatype='string' name='Unique_Id' ordinal='8' />
+                  <column datatype='real' name='Average Kg' ordinal='9' />
+                  <column datatype='real' name='Average BMI' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[                 <Average Weight(kg) & BMI>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='V1_weightLogInfo_merged (V2_weightLogInfo_merged)' name='federated.17m7nqt1je7ef61bl3i2t07h9919' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17m7nqt1je7ef61bl3i2t07h9919'>
+            <column datatype='real' name='[Average BMI]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Average Kg]' role='measure' type='quantitative' />
+            <column caption='Unique Id' datatype='string' name='[Unique_Id]' role='dimension' type='nominal' />
+            <column-instance column='[Unique_Id]' derivation='None' name='[none:Unique_Id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Average BMI]' derivation='Sum' name='[sum:Average BMI:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Average Kg]' derivation='Sum' name='[sum:Average Kg:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.17m7nqt1je7ef61bl3i2t07h9919].[sum:Average BMI:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.17m7nqt1je7ef61bl3i2t07h9919].[sum:Average BMI:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.17m7nqt1je7ef61bl3i2t07h9919].[sum:Average Kg:qk]' field-type='quantitative' minor-origin='0.0' minor-spacing='1.0' scope='rows' type='space' />
+            <format attr='width' field='[federated.17m7nqt1je7ef61bl3i2t07h9919].[sum:Average BMI:qk]' value='60' />
+            <format attr='width' field='[federated.17m7nqt1je7ef61bl3i2t07h9919].[sum:Average Kg:qk]' value='60' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='381' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.17m7nqt1je7ef61bl3i2t07h9919].[none:Unique_Id:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.17m7nqt1je7ef61bl3i2t07h9919].[sum:Average BMI:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.17m7nqt1je7ef61bl3i2t07h9919].[none:Unique_Id:nk]' />
+              <lod column='[federated.17m7nqt1je7ef61bl3i2t07h9919].[sum:Average Kg:qk]' />
+              <lod column='[federated.17m7nqt1je7ef61bl3i2t07h9919].[sum:Average BMI:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.20790055394172668' />
+                <format attr='shape' value='triangle' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.17m7nqt1je7ef61bl3i2t07h9919].[sum:Average Kg:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.17m7nqt1je7ef61bl3i2t07h9919].[none:Unique_Id:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.20790055394172668' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.17m7nqt1je7ef61bl3i2t07h9919].[sum:Average BMI:qk] + [federated.17m7nqt1je7ef61bl3i2t07h9919].[sum:Average Kg:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{30B8E20F-383E-4E7C-A6AE-010A8C19D8DF}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.17m7nqt1je7ef61bl3i2t07h9919].[none:Unique_Id:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.17m7nqt1je7ef61bl3i2t07h9919].[none:Unique_Id:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BBE9500F-859D-4464-8AC0-19F8ECB2C286}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

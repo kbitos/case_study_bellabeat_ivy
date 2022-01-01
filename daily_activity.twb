@@ -1,0 +1,819 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.21.1217.2252                               -->
+<workbook original-version='18.1' source-build='2021.4.2 (20214.21.1217.2252)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='V1_dailyActivity_merged (V2_dailyActivity_merged)' inline='true' name='federated.1q78azl1yibdad1b4o9pm02l050k' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='V2_dailyActivity_merged' name='excel-direct.0ksbye61gcsnrn19r7qej0pofvb6'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/kbito/Downloads/Case Study Bitos Data Analysis/Fitabase Data 4.12.16-5.12.16/cleaned_data/V2_dailyActivity_merged.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0ksbye61gcsnrn19r7qej0pofvb6' name='V1_dailyActivity_merged' table='[V1_dailyActivity_merged$]' type='table'>
+          <columns gridOrigin='A1:S63:no:A1:S63:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Id' ordinal='0' />
+            <column datatype='string' name='ActivityDate' ordinal='1' />
+            <column datatype='real' name='TotalSteps' ordinal='2' />
+            <column datatype='real' name='TotalDistance' ordinal='3' />
+            <column datatype='real' name='TrackerDistance' ordinal='4' />
+            <column datatype='integer' name='LoggedActivitiesDistance' ordinal='5' />
+            <column datatype='real' name='VeryActiveDistance' ordinal='6' />
+            <column datatype='real' name='ModeratelyActiveDistance' ordinal='7' />
+            <column datatype='real' name='LightActiveDistance' ordinal='8' />
+            <column datatype='real' name='SedentaryActiveDistance' ordinal='9' />
+            <column datatype='real' name='VeryActiveMinutes' ordinal='10' />
+            <column datatype='real' name='FairlyActiveMinutes' ordinal='11' />
+            <column datatype='real' name='LightlyActiveMinutes' ordinal='12' />
+            <column datatype='real' name='SedentaryMinutes' ordinal='13' />
+            <column datatype='real' name='Calories' ordinal='14' />
+            <column datatype='real' name='%VeryActiveDistance' ordinal='15' />
+            <column datatype='real' name='%ModeratelyActiveDistance' ordinal='16' />
+            <column datatype='real' name='%LightActiveDistance' ordinal='17' />
+            <column datatype='integer' name='%SedentaryActiveDistance' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0ksbye61gcsnrn19r7qej0pofvb6' name='V1_dailyActivity_merged' table='[V1_dailyActivity_merged$]' type='table'>
+          <columns gridOrigin='A1:S63:no:A1:S63:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Id' ordinal='0' />
+            <column datatype='string' name='ActivityDate' ordinal='1' />
+            <column datatype='real' name='TotalSteps' ordinal='2' />
+            <column datatype='real' name='TotalDistance' ordinal='3' />
+            <column datatype='real' name='TrackerDistance' ordinal='4' />
+            <column datatype='integer' name='LoggedActivitiesDistance' ordinal='5' />
+            <column datatype='real' name='VeryActiveDistance' ordinal='6' />
+            <column datatype='real' name='ModeratelyActiveDistance' ordinal='7' />
+            <column datatype='real' name='LightActiveDistance' ordinal='8' />
+            <column datatype='real' name='SedentaryActiveDistance' ordinal='9' />
+            <column datatype='real' name='VeryActiveMinutes' ordinal='10' />
+            <column datatype='real' name='FairlyActiveMinutes' ordinal='11' />
+            <column datatype='real' name='LightlyActiveMinutes' ordinal='12' />
+            <column datatype='real' name='SedentaryMinutes' ordinal='13' />
+            <column datatype='real' name='Calories' ordinal='14' />
+            <column datatype='real' name='%VeryActiveDistance' ordinal='15' />
+            <column datatype='real' name='%ModeratelyActiveDistance' ordinal='16' />
+            <column datatype='real' name='%LightActiveDistance' ordinal='17' />
+            <column datatype='integer' name='%SedentaryActiveDistance' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S63:no:A1:S63:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ActivityDate</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ActivityDate]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>ActivityDate</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalSteps</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotalSteps]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>TotalSteps</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalDistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotalDistance]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>TotalDistance</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TrackerDistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TrackerDistance]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>TrackerDistance</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LoggedActivitiesDistance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LoggedActivitiesDistance]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>LoggedActivitiesDistance</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VeryActiveDistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[VeryActiveDistance]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>VeryActiveDistance</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ModeratelyActiveDistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ModeratelyActiveDistance]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>ModeratelyActiveDistance</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LightActiveDistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LightActiveDistance]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>LightActiveDistance</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SedentaryActiveDistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SedentaryActiveDistance]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>SedentaryActiveDistance</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VeryActiveMinutes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[VeryActiveMinutes]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>VeryActiveMinutes</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FairlyActiveMinutes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FairlyActiveMinutes]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>FairlyActiveMinutes</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LightlyActiveMinutes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LightlyActiveMinutes]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>LightlyActiveMinutes</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SedentaryMinutes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SedentaryMinutes]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>SedentaryMinutes</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calories</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Calories]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>Calories</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>%VeryActiveDistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[%VeryActiveDistance]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>%VeryActiveDistance</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>%ModeratelyActiveDistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[%ModeratelyActiveDistance]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>%ModeratelyActiveDistance</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>%LightActiveDistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[%LightActiveDistance]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>%LightActiveDistance</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>%SedentaryActiveDistance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[%SedentaryActiveDistance]</local-name>
+            <parent-name>[V1_dailyActivity_merged]</parent-name>
+            <remote-alias>%SedentaryActiveDistance</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Activity Date' datatype='string' name='[ActivityDate]' role='dimension' type='nominal' />
+      <column caption='Fairly Active Minutes' datatype='real' name='[FairlyActiveMinutes]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Id]' role='dimension' type='ordinal' />
+      <column caption='Light Active Distance' datatype='real' name='[LightActiveDistance]' role='measure' type='quantitative' />
+      <column caption='Lightly Active Minutes' datatype='real' name='[LightlyActiveMinutes]' role='measure' type='quantitative' />
+      <column caption='Logged Activities Distance' datatype='integer' name='[LoggedActivitiesDistance]' role='measure' type='quantitative' />
+      <column caption='Moderately Active Distance' datatype='real' name='[ModeratelyActiveDistance]' role='measure' type='quantitative' />
+      <column caption='Sedentary Active Distance' datatype='real' name='[SedentaryActiveDistance]' role='measure' type='quantitative' />
+      <column caption='Sedentary Minutes' datatype='real' name='[SedentaryMinutes]' role='measure' type='quantitative' />
+      <column caption='Total Distance' datatype='real' name='[TotalDistance]' role='measure' type='quantitative' />
+      <column caption='Total Steps' datatype='real' name='[TotalSteps]' role='measure' type='quantitative' />
+      <column caption='Tracker Distance' datatype='real' name='[TrackerDistance]' role='measure' type='quantitative' />
+      <column caption='Very Active Distance' datatype='real' name='[VeryActiveDistance]' role='measure' type='quantitative' />
+      <column caption='Very Active Minutes' datatype='real' name='[VeryActiveMinutes]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='V1_dailyActivity_merged' datatype='table' name='[__tableau_internal_object_id__].[V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='V1_dailyActivity_merged' id='V1!dailyActivity!merged_0A27EFDD394A496FA2FAA8E8F0BC5841'>
+            <properties context=''>
+              <relation connection='excel-direct.0ksbye61gcsnrn19r7qej0pofvb6' name='V1_dailyActivity_merged' table='[V1_dailyActivity_merged$]' type='table'>
+                <columns gridOrigin='A1:S63:no:A1:S63:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Id' ordinal='0' />
+                  <column datatype='string' name='ActivityDate' ordinal='1' />
+                  <column datatype='real' name='TotalSteps' ordinal='2' />
+                  <column datatype='real' name='TotalDistance' ordinal='3' />
+                  <column datatype='real' name='TrackerDistance' ordinal='4' />
+                  <column datatype='integer' name='LoggedActivitiesDistance' ordinal='5' />
+                  <column datatype='real' name='VeryActiveDistance' ordinal='6' />
+                  <column datatype='real' name='ModeratelyActiveDistance' ordinal='7' />
+                  <column datatype='real' name='LightActiveDistance' ordinal='8' />
+                  <column datatype='real' name='SedentaryActiveDistance' ordinal='9' />
+                  <column datatype='real' name='VeryActiveMinutes' ordinal='10' />
+                  <column datatype='real' name='FairlyActiveMinutes' ordinal='11' />
+                  <column datatype='real' name='LightlyActiveMinutes' ordinal='12' />
+                  <column datatype='real' name='SedentaryMinutes' ordinal='13' />
+                  <column datatype='real' name='Calories' ordinal='14' />
+                  <column datatype='real' name='%VeryActiveDistance' ordinal='15' />
+                  <column datatype='real' name='%ModeratelyActiveDistance' ordinal='16' />
+                  <column datatype='real' name='%LightActiveDistance' ordinal='17' />
+                  <column datatype='integer' name='%SedentaryActiveDistance' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Activity Trends</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='V1_dailyActivity_merged (V2_dailyActivity_merged)' name='federated.1q78azl1yibdad1b4o9pm02l050k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1q78azl1yibdad1b4o9pm02l050k'>
+            <column datatype='real' name='[%LightActiveDistance]' role='measure' type='quantitative' />
+            <column datatype='real' name='[%ModeratelyActiveDistance]' role='measure' type='quantitative' />
+            <column datatype='real' name='[%VeryActiveDistance]' role='measure' type='quantitative' />
+            <column caption='Total Steps' datatype='real' name='[TotalSteps]' role='measure' type='quantitative' />
+            <column caption='Tracker Distance' datatype='real' name='[TrackerDistance]' role='measure' type='quantitative' />
+            <column-instance column='[%LightActiveDistance]' derivation='None' name='[none:%LightActiveDistance:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[%ModeratelyActiveDistance]' derivation='None' name='[none:%ModeratelyActiveDistance:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[%VeryActiveDistance]' derivation='None' name='[none:%VeryActiveDistance:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TotalSteps]' derivation='Sum' name='[sum:TotalSteps:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TrackerDistance]' derivation='Sum' name='[sum:TrackerDistance:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#c290b4' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1q78azl1yibdad1b4o9pm02l050k].[none:%LightActiveDistance:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#c290b4' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1q78azl1yibdad1b4o9pm02l050k].[none:%ModeratelyActiveDistance:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#c290b4' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1q78azl1yibdad1b4o9pm02l050k].[none:%VeryActiveDistance:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#c290b4' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1q78azl1yibdad1b4o9pm02l050k].[sum:TrackerDistance:qk] + [federated.1q78azl1yibdad1b4o9pm02l050k].[sum:TotalSteps:qk])</rows>
+        <cols>([federated.1q78azl1yibdad1b4o9pm02l050k].[none:%LightActiveDistance:qk] + ([federated.1q78azl1yibdad1b4o9pm02l050k].[none:%ModeratelyActiveDistance:qk] + [federated.1q78azl1yibdad1b4o9pm02l050k].[none:%VeryActiveDistance:qk]))</cols>
+      </table>
+      <simple-id uuid='{AA443F5B-6F3B-40A2-8823-C4BDAFB452AC}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D4FC0473-F71C-4E01-85E1-BBF4755A26A5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

@@ -1,0 +1,17 @@
+Version(s)
+0-->Bitos-->12/29/21 11:09 PM-->Initial File after copying all raw data 
+ sheets to a single .xlsx file.
+1-->Bitos-->30/12/21 10:56 PM--> Data Cleaning, removing whitespaces,
+out of context unrealistic values, duplicates, blanks ,basic calculations.
+2-->Bitos-->01/01/21 09:58 PM-->Corrections on formatting.
+
+
+
+
+
+
+
+Changelog:
+12/29/21 11:09 PM-->Initial File after copying raw data
+30/12/21 10:56 PM-->Data Cleaning, Basic Calculations
+01/01/21 09:58 PM-->Corrections on formatting
